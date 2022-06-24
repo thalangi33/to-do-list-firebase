@@ -1,0 +1,131 @@
+body {
+    font-family: "Open Sans", Times ;
+    background-color: #D8E8EE;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-heading {
+    font-size: 52px;
+    font-weight: bold;
+    padding: 0px 100px;
+    background-color: #A1CAF1;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.submit-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-to-do {
+    text-decoration: none;
+    font-size: 36px;
+    padding: 15px 40px;
+    color: #0472a5;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    min-width: 500px;
+}
+
+.input-to-do::placeholder {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(165, 165, 165);
+}
+
+.input-to-do:focus {
+    outline: none;
+}
+
+.to-do-submit {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    background-color:  #A1CAF1;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-box {
+    font-size: 36px;
+    padding: 10px 40px;
+    margin: 5px;
+    min-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+}
+
+.result-box:first-letter {
+    text-transform: capitalize;
+}
+
+.delete-list {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    background-color: rgb(255, 65, 94);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons-outlined.md-36 { font-size: 36px; z-index: 1;}
+
+.done-check {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    background-color: rgb(75, 185, 75);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.undone-check {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
